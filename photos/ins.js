@@ -116,7 +116,7 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://github.com/chengaojian/Blog-Back-Up/tree/master/min_photos/' + data.link[i] + '.min.jpg';
+          var minSrc = 'https://github.com/chengaojian/Blog-Back-Up/tree/master/min_photos/' + data.link[i];
           var src = 'https://github.com/chengaojian/Blog-Back-Up/blob/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src;
