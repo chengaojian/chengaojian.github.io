@@ -119,7 +119,7 @@
           var minSrc = 'https://github.com/chengaojian/Blog-Back-Up/tree/master/min_photos/' + data.link[i] + '.min.jpg';
           var src = 'https://github.com/chengaojian/Blog-Back-Up/blob/master/photos/' + data.link[i];
           var type = data.type[i];
-          var target = src + (type === 'video' ? '.mp4' : '.jpg');
+          var target = src;
 
           liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">\
                 <a href="' + src + '" itemprop="contentUrl" data-size="640x640" data-type="' + type + '" data-target="' + target + '">\
